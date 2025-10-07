@@ -5,10 +5,10 @@ title: Home
 
 ## selfdriven Telecommunication Network Services
 
-**Current infrastructure includes:**
+### Infrastructure
 - [Unity Node](https://unitynodes.io)
     - [#SNIIUN01](https://adastat.net/policies/269366d093249b0cac98fa9fcbc374578429534e3b7adeac09f081e3)
-    - Referral Code: **&SELFDRIVEN**
+    - Referral Code: **SELFDRIVEN**
     - Phone Licences: 200
 
 ### Related

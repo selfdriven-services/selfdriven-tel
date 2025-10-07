@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-## selfdriven Telecommunication Network Services
+## Telecommunication Network Services
 
 ### Infrastructure
 - [Unity Node](https://unitynodes.io)

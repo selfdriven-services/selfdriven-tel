@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1770" height="680" viewBox="0, 0, 885, 340">
+  <g id="Layer_1">
+    <path d="M7.136,123.716 L131.367,-0.514 L131.367,123.716 L7.136,247.947 L7.136,123.716 z M133.235,339.486 L7.136,339.486 L256.531,90.09 L256.531,216.189 L133.235,339.486 z M228.509,338.552 L350.872,216.189 L350.872,338.552 L228.509,338.552 z" fill="#DE5A31"/>
+    <text transform="matrix(1, 0, 0, 1, 689.556, 240.047)">
+      <tspan x="-275.571" y="91" font-family="Brockmann-Medium" font-size="400" fill="#DE5A31">tel</tspan>
+    </text>
+  </g>
+</svg>

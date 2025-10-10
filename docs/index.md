@@ -11,7 +11,7 @@ title: Home
         - [#SNIIUN01](https://adastat.net/policies/269366d093249b0cac98fa9fcbc374578429534e3b7adeac09f081e3)
             - 200 App Licences
             - [Connect with us if you're interested in running the app!](https://selfdriven.fyi/connect)
-        - Referral Code: **SELFDRIVEN**
+        - Unity Node Referral Code: **SELFDRIVEN**
         - [Research](/research/)
 
 ### Related

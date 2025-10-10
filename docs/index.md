@@ -17,5 +17,6 @@ title: Home
 - [selfdriven.network Infra Interface](https://selfdriven.network/infra-interface)
 - [selfdriven.id](https://selfdriven.id) - Identity & Trust
 - [selfdriven.social](https://selfdriven.social) - AT Protocol
+- Member of the [WorldMobile Alliance](https://www.worldmobilealliance.io/)
 
 

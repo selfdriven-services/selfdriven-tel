@@ -7,9 +7,10 @@ title: Home
 
 ### Infrastructure
 - [Unity Node](https://unitynodes.io)
-    - [#SNIIUN01](https://adastat.net/policies/269366d093249b0cac98fa9fcbc374578429534e3b7adeac09f081e3)
+    - Cooperative Owned:
+        - [#SNIIUN01](https://adastat.net/policies/269366d093249b0cac98fa9fcbc374578429534e3b7adeac09f081e3)
     - Referral Code: **SELFDRIVEN**
-    - Phone Licences: 200
+    - Phone App Licences Owned: 200
     - [Research](/research/)
 
 ### Related

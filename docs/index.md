@@ -12,7 +12,7 @@ title: Home
             - 200 App Licences
             - [Connect with us if you're interested in running the app!](https://selfdriven.fyi/connect)
         - Unity Node Referral Code: **SELFDRIVEN**
-        - [Research](/research/)
+        - [Resources](/resources/)
 
 ### Related
 - [selfdriven.network Infra Interface](https://selfdriven.network/infra-interface)

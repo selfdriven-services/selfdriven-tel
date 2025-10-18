@@ -13,5 +13,5 @@ permalink: /resources/
 - [Rewards](https://unitynodes.io/documents/Unity_Rewards.pdf)
 - [Media Kit](https://unitynodes.io/media-kit.html)
 
-## selfdriven Network Infra Interface
+### selfdriven Network Infra Interface
 - [Example Communitised Infra Agreement](https://www.selfdriven.network/infra-interface/communitised-agreement)

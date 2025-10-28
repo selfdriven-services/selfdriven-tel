@@ -13,6 +13,7 @@ title: Home
             - [Connect with us if you're interested in running the app!](https://selfdriven.fyi/connect)
         - Unity Node Referral Code: **SELFDRIVEN**
         - [Resources](/resources/)
+        - [Education](/education/)
 
 ### Related
 - [selfdriven.network Infra Interface](https://selfdriven.network/infra-interface)

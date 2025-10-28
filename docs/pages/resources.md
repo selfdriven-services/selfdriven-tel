@@ -16,3 +16,7 @@ permalink: /resources/
 
 ### selfdriven Network Infra
 - [Example Communitised Infra Agreement](https://www.selfdriven.network/infra-interface/communitised-agreement)
+
+### Related
+- [Education](/education/)
+

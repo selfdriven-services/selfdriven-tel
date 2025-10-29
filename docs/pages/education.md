@@ -15,10 +15,10 @@ permalink: /education/
     - Minutes Network
     - Unity Node
 - Sharing Economy
-    - Octomics.io
+    - [octomics.io](https://octomics.io)
 - Property as income in a post labour economy (GenAI impact)
 - Communitised Ownership as Tokenisation On-Chain
-- Getting started On-Chain
+- [Getting Started On-Chain](https://www.selfdriven.support/guides/getting-on-chain/)
 
 ### Related
 - [actuate.selfdriven.community](https://actuate.selfdriven.community)

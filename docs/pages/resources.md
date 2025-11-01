@@ -13,6 +13,8 @@ permalink: /resources/
 - [Podcast](https://youtu.be/pcmbBwExphM?si=owtZ7NwwGOcntNaa)
 - [Rewards](https://unitynodes.io/documents/Unity_Rewards.pdf)
 - [Media Kit](https://unitynodes.io/media-kit.html)
+- [@MNToken](https://x.com/MNToken)
+- [@worldmobileteam](https://x.com/worldmobileteam)
 
 ### selfdriven Network Infra
 - [Example Communitised Infra Agreement](https://www.selfdriven.network/infra-interface/communitised-agreement)

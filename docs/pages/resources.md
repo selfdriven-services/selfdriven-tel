@@ -15,6 +15,7 @@ permalink: /resources/
 - [Media Kit](https://unitynodes.io/media-kit.html)
 - [@MNToken](https://x.com/MNToken)
 - [@worldmobileteam](https://x.com/worldmobileteam)
+- [Roadmap](https://x.com/MNToken/status/1983530145852874775)
 
 ### selfdriven Network Infra
 - [Example Communitised Infra Agreement](https://www.selfdriven.network/infra-interface/communitised-agreement)

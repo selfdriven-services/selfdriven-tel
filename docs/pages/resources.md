@@ -20,7 +20,7 @@ permalink: /resources/
     - [Cardano → Ethereum, Singularity Bridge ](https://bridge.singularitynet.io)
     - [Ethereum → Base, Transporter](https://transporter.io)
     - [Base → WMC Mainnet, Arbitrum Bridge](https://bridge.arbitrum.io/?sourceChain=base&destinationChain=world-mobile-chain-mainnet&tab=bridge)
-    - [WMC Explorer](https://exploer.worldmobile.io)
+- [WMC Explorer](https://exploer.worldmobile.io)
 
 
 ### selfdriven Network Infra

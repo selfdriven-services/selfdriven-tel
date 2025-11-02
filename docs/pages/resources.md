@@ -19,7 +19,9 @@ permalink: /resources/
 - [Bridging WMTx](https://x.com/CloverNodes/status/1960133264322273531)
     - [Cardano → Ethereum, Singularity Bridge ](https://bridge.singularitynet.io)
     - [Ethereum → Base, Transporter](https://transporter.io)
-    - [Base → WMC Mainnet, Arbitrum Bridge]( https://bridge.arbitrum.io/?sourceChain=base&destinationChain=world-mobile-chain-mainnet&tab=bridge)
+    - [Base → WMC Mainnet, Arbitrum Bridge](https://bridge.arbitrum.io/?sourceChain=base&destinationChain=world-mobile-chain-mainnet&tab=bridge)
+    - [WMC Explorer](https://exploer.worldmobile.io)
+
 
 ### selfdriven Network Infra
 - [Example Communitised Infra Agreement](https://www.selfdriven.network/infra-interface/communitised-agreement)

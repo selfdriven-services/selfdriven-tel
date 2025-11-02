@@ -16,6 +16,10 @@ permalink: /resources/
 - [@MNToken](https://x.com/MNToken)
 - [@worldmobileteam](https://x.com/worldmobileteam)
 - [Roadmap](https://x.com/MNToken/status/1983530145852874775)
+- [Bridging WMTx](https://x.com/CloverNodes/status/1960133264322273531)
+    - [Cardano → Ethereum, Singularity Bridge ](https://bridge.singularitynet.io)
+    - [Ethereum → Base, Transporter](https://transporter.io)
+    - [Base → WMC Mainnet, Arbitrum Bridge]( https://bridge.arbitrum.io/?sourceChain=base&destinationChain=world-mobile-chain-mainnet&tab=bridge)
 
 ### selfdriven Network Infra
 - [Example Communitised Infra Agreement](https://www.selfdriven.network/infra-interface/communitised-agreement)

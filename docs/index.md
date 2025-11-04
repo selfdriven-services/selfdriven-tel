@@ -35,5 +35,5 @@ title: Home
 - [selfdriven.id](https://selfdriven.id) - Identity & Trust
 - [selfdriven.social](https://selfdriven.social) - AT Protocol
 - Member of the [WorldMobile Alliance](https://www.worldmobilealliance.io/)
-
+- [worldmobile.io eSIM](https://esim.worldmobile.io/)
 

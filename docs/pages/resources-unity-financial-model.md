@@ -24,7 +24,7 @@ Applies to Unity Node Holders (2025 Model)
 ## Reward Scenarios
 
 | Scenario | Description | Your Share | Notes |
-|-----------|--------------|-------------|-------|
+|-----------|--------------|-----------:|-------|
 | **Self-Operate** | You operate all 200 licenses | 75 % | Full control and costs |
 | **Lease** | You lease licenses to others | 50 % (typical) | Revenue shared with lessee |
 | **Hybrid** | You operate some, lease some | ~62.5 % | Mix of the two strategies |
@@ -41,10 +41,10 @@ Applies to Unity Node Holders (2025 Model)
 | **ROI (%)** | **-40.9** | **68.4** | **13.7** |
 | **Payback Period (yrs)** | **–** | **1.46** | **7.28** |
 
-> *Assumptions:*  
-> 200 licenses × $3 reward × 12 months × 95 % performance.  
-> Subscription = $2.99 / license / month.  
-> Exchange rate = 1 USD ≈ 1.55 AUD (for reference only).
+**Assumptions:**
+- 200 licenses × $3 reward × 12 months × 95 % performance.  
+- Subscription = $2.99 / license / month.  
+- Exchange rate = 1 USD ≈ 1.55 AUD (for reference only).
 
 ## Interpretation
 

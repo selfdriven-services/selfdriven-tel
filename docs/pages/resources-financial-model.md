@@ -64,4 +64,4 @@ Applies to Unity Node Holders (2025 Model)
 | `Scenario Analysis` | Compares Self-Operate / Lease / Hybrid |
 | `Summary Dashboard` | Visual charts & KPIs (optional add-on) |
 
-📎 **Excel file**: [selfdriven-tel-unity-node-financial-model-template.xlsx](https://github.com/selfdriven-services/selfdriven-tel)
+📎 **Excel file**: [selfdriven-tel-unity-node-financial-model-template.xlsx](https://github.com/selfdriven-services/selfdriven-tel/tree/main/resources)

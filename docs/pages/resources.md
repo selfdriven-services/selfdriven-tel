@@ -20,7 +20,7 @@ permalink: /resources/
     - [Cardano → Ethereum, Singularity Bridge ](https://bridge.singularitynet.io)
     - [Ethereum → Base, Transporter](https://transporter.io)
     - [Base → WMC Mainnet, Arbitrum Bridge](https://bridge.arbitrum.io/?sourceChain=base&destinationChain=world-mobile-chain-mainnet&tab=bridge)
-- [WMC Explorer](https://explorer.worldmobile.io)
+- [WMC Explorer - Unity Node NFT](https://explorer.worldmobile.io/token/0x0297ADB0934D6356dBdEb5E313B12e0b69d327ec)
 - [Financial Model Template](/resources/unity/financial-model/)
 
 

@@ -15,14 +15,13 @@ permalink: /resources/
 - [Media Kit](https://unitynodes.io/media-kit.html)
 - [@MNToken](https://x.com/MNToken) - [Discord](https://discord.gg/minutesnetwork)
 - [@worldmobileteam](https://x.com/worldmobileteam)
-- [Roadmap](https://x.com/MNToken/status/1983530145852874775)
+- [Unity Roadmap](https://x.com/MNToken/status/1983530145852874775)
+- [WMC Explorer - Unity Node NFT](https://explorer.worldmobile.io/token/0x0297ADB0934D6356dBdEb5E313B12e0b69d327ec)
+- [Financial Model Template](/resources/unity/financial-model/)
 - [Bridging WMTx](https://x.com/CloverNodes/status/1960133264322273531)
     - [Cardano → Ethereum, Singularity Bridge ](https://bridge.singularitynet.io)
     - [Ethereum → Base, Transporter](https://transporter.io)
     - [Base → WMC Mainnet, Arbitrum Bridge](https://bridge.arbitrum.io/?sourceChain=base&destinationChain=world-mobile-chain-mainnet&tab=bridge)
-- [WMC Explorer - Unity Node NFT](https://explorer.worldmobile.io/token/0x0297ADB0934D6356dBdEb5E313B12e0b69d327ec)
-- [Financial Model Template](/resources/unity/financial-model/)
-
 
 ### selfdriven Network Infra
 - [Example Communitised Infra Agreement](https://www.selfdriven.network/infra-interface/communitised-agreement)

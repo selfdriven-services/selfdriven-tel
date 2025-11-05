@@ -32,7 +32,7 @@ Applies to Unity Node Holders (2025 Model)
 ## Example Cost & ROI (USD)
 
 | Metric | Self-Operate | Lease | Hybrid |
-|---------|--------------|--------|--------|
+|---------|------------:|--------|--------|
 | Initial Node Cost | $5,000 | $5,000 | $5,000 |
 | Monthly License Costs | $598 | $0 | $299 |
 | Annual Revenue | $5,130 | $3,420 | $4,275 |

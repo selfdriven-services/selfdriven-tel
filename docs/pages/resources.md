@@ -13,7 +13,7 @@ permalink: /resources/
 - [Podcast](https://youtu.be/pcmbBwExphM?si=owtZ7NwwGOcntNaa)
 - [Rewards](https://unitynodes.io/documents/Unity_Rewards.pdf)
 - [Media Kit](https://unitynodes.io/media-kit.html)
-- [@MNToken](https://x.com/MNToken)
+- [@MNToken](https://x.com/MNToken) - [Discord](https://discord.gg/minutesnetwork)
 - [@worldmobileteam](https://x.com/worldmobileteam)
 - [Roadmap](https://x.com/MNToken/status/1983530145852874775)
 - [Bridging WMTx](https://x.com/CloverNodes/status/1960133264322273531)

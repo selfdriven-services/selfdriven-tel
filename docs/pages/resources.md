@@ -22,6 +22,12 @@ permalink: /resources/
     - [Cardano → Ethereum, Singularity Bridge ](https://bridge.singularitynet.io)
     - [Ethereum → Base, Transporter](https://transporter.io)
     - [Base → WMC Mainnet, Arbitrum Bridge](https://bridge.arbitrum.io/?sourceChain=base&destinationChain=world-mobile-chain-mainnet&tab=bridge)
+- World Mobile Chain Settings:
+    - Name: World Mobile Chain
+    - RPC: World Mobile Chain / https://worldmobilechain-mainnet.g.alchemy.com/public
+    - ChainID: 869
+    - Token Name: WMTX
+    - Explorer URL: https://explorer.worldmobile.io
 
 ### selfdriven Network Infra
 - [Example Communitised Infra Agreement](https://www.selfdriven.network/infra-interface/communitised-agreement)

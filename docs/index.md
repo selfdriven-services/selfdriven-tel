@@ -23,7 +23,7 @@ title: Home
 
 **Operators:**
 - [Connect with us if you're interested in running the app!](https://selfdriven.fyi/connect)
-- [Download the Android App v0.1.0 (APK)](https://github.com/selfdriven-services/selfdriven-tel/raw/refs/heads/main/setup/Unity-0.1.0+2025-11-06.apk)
+- [Download the Android App (APK)](https://github.com/selfdriven-services/selfdriven-tel/raw/refs/heads/main/setup/apks.md)
 
 **More Info**
 - Unity Node Referral Code: **SELFDRIVEN**

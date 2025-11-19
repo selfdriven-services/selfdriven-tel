@@ -5,7 +5,7 @@ title: Home
 
 ## Telecommunication Network Services
 
-### selfdriven Services managed Communitised Infra:
+### selfdriven Services managed Cooperative Infra:
 
 #### [Unity Nodes](https://unitynodes.io)
 

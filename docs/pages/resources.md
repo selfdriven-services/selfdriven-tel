@@ -31,7 +31,7 @@ permalink: /resources/
     - Explorer URL: https://explorer.worldmobile.io
 
 ### selfdriven Network Infra
-- [Example Communitised Infra Agreement](https://www.selfdriven.network/infra-interface/communitised-agreement)
+- [Example Cooperative Infra Agreement](https://www.selfdriven.network/infra-interface/cooperative/agreement)
 
 ### Related
 - [Education](/education/)

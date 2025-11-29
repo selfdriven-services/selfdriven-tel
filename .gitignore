@@ -6,3 +6,5 @@ setup/Unity-0.1.1+2025-11-13.apk
 setup/Unity-latest.apk
 *.apk
 .DS_Store
+.DS_Store
+docs/.DS_Store

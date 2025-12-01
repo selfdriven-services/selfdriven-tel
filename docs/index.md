@@ -22,8 +22,9 @@ title: Home
     - 200 operator licences
 
 **Operators:**
-- [Connect with us if you're interested in running the app!](https://selfdriven.fyi/connect)
-- [Download the Android App (APK)](https://releases.unitynodes.io/android/Unity-0.1.3+2025-11-29.apk)
+- [Complete the online form if your interested in being an operator!](https://forms.gle/5bmnvCvYHhfZqr4DA)
+- [Download the Android App (APK)](https://releases.unitynodes.io/android/)
+
 
 **More Info**
 - Unity Node Referral Code: **SELFDRIVEN**

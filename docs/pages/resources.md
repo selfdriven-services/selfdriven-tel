@@ -9,6 +9,7 @@ permalink: /resources/
 ### Unity Nodes
 - [unitynodes.io](https://unitynodes.io)
 - [uno.unitynodes.io](https://uno.unitynodes.io/)
+- [manage.unitynodes.io](https://manage.unitynodes.io/)
 - [Article](https://x.com/krabalot/status/1971709580817076530?s=46&t=M_z10jf1hWN5hn7liKVlVA)
 - [Article: Unity Node as Income Stream](https://x.com/wmtxlady/status/1982001238599151817?s=46&t=M_z10jf1hWN5hn7liKVlVA)
 - [Podcast](https://youtu.be/pcmbBwExphM?si=owtZ7NwwGOcntNaa)

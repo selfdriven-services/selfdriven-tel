@@ -18,6 +18,8 @@ This model is designed to:
 - reward active contribution
 - support operator onboarding
 
+**Note: All % shares are subject to change, prior to the official go-live date for this program - expected mid Jan 2026.**
+
 | Role | Share |
 |---|:--:|
 | Operator (ULO) | 60% |

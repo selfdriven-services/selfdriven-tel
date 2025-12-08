@@ -23,32 +23,27 @@ This model is designed to:
 ### Unity Level Split
 
 | Role | Share |
-|---|---|
+|---|:--:|
 | Operator (ULO) | 60% |
 | **Actuation Facilitator (On-boarding & Support)** | **18%** |
 | Operations & Co-Operative Owners | 22% |
-
----
 
 ## Scenarios Based on Work Effort
 
 ### Scenario: Operator & Actuation Facilator 
 
 | Allocation | % |
-|---|---|
+|---|:--:|
 | Operator (ULO) – Running App | 60 |
 | Actuation Facilitator - On-boarding & Support | 18 |
 | TOTAL | 78 |
----
 
 ### Scenario: Reseller
 
 | Allocation | % |
-|---|---|
+|---|:--:|
 | Actuation Facilitator - On-boarding & Support | 18 |
 | Total (example) | 18 |
-
----
 
 ### Summary
 

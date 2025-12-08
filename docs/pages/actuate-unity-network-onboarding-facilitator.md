@@ -18,8 +18,6 @@ This model is designed to:
 - reward active contribution
 - support operator onboarding
 
-### Unity Level Split
-
 | Role | Share |
 |---|:--:|
 | Operator (ULO) | 60% |
@@ -28,7 +26,7 @@ This model is designed to:
 
 ## Scenarios Based on Work Effort
 
-### Scenario: Operator & Actuation Facilator 
+### Operator & Actuation Facilator 
 
 | Allocation | % |
 |---|:--:|
@@ -36,7 +34,7 @@ This model is designed to:
 | Actuation Facilitator - On-boarding & Support | 18 |
 | TOTAL | 78 |
 
-### Scenario: Reseller
+### Actuation Facilator
 
 | Allocation | % |
 |---|:--:|

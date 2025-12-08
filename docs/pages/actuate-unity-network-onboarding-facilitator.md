@@ -6,13 +6,11 @@ permalink: /actuate/unity-network/facilitator
 
 ## Licence Operator Actuation Facilitator Information
 
-## n-boarding & Support Facilitatation
+**On-boarding & Support Facilitatation**
 
 There’s a growing need for people who can guide Unity Licence Operators (people running the app) through setup, activation, and ongoing support. The On-boarding & Support Facilitator role exists specifically for this purpose. Rather than being a technical “help desk,” this role is about enabling real usage, helping Operators run successfully, and supporting them through their first customers and early learning curve.
 
 If you enjoy helping people, a way to participate and build revenue based on a percentage of the resulting rewards. You’ll be supporting new Operators through practical steps, answering questions, and making sure they start earning quickly and confidently. The more active Operators you help bring online and keep operating, the more you earn.
-
-
 
 ## Standard Revenue Splits
 

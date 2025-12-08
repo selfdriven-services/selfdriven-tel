@@ -32,14 +32,14 @@ This model is designed to:
 |---|:--:|
 | Operator (ULO) – Running App | 60 |
 | Actuation Facilitator - On-boarding & Support | 18 |
-| TOTAL | 78 |
+| **TOTAL** | **78** |
 
 ### Actuation Facilator
 
 | Allocation | % |
 |---|:--:|
 | Actuation Facilitator - On-boarding & Support | 18 |
-| Total (example) | 18 |
+| **TOTAL** | **18** |
 
 ### Summary
 

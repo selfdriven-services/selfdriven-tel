@@ -48,7 +48,7 @@ permalink: /resources/unity
     - ChainID: 869
     - Token Name: WMTX
     - Explorer URL: https://explorer.worldmobile.io
-
+- [App Issue/Bug Reporting](https://unitynodes.io/bug-report/)
 
 
 ### selfdriven Network Infra

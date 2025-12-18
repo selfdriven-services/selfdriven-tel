@@ -24,7 +24,7 @@ This model is designed to:
 |---|:--:|
 | Operator (ULO) | 60% |
 | **Actuation Facilitator (On-boarding & Support)** | **18%** |
-| Operations & Co-Operative Owners | 22% |
+| Operations & Co-Operative Owners (Passive) | 16% |
 
 ## Scenarios Based on Work Effort
 
@@ -33,14 +33,14 @@ This model is designed to:
 | Allocation | % |
 |---|:--:|
 | Operator (ULO) – Running App | 60 |
-| Actuation Facilitator - On-boarding & Support | 18 |
+| Actuation Facilitator (On-boarding & Support) | 18 |
 | **TOTAL** | **78** |
 
 ### Actuation Facilator
 
 | Allocation | % |
 |---|:--:|
-| Actuation Facilitator - On-boarding & Support | 18 |
+| Actuation Facilitator (On-boarding & Support) | 18 |
 | **TOTAL** | **18** |
 
 ### Summary

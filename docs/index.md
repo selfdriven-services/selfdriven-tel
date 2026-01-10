@@ -22,9 +22,12 @@ title: Home
     - 200 operator licences
 
 **Operators:**
-- [Complete the online form if your interested in being an operator!](https://forms.gle/5bmnvCvYHhfZqr4DA)
-- [Download the Android App (APK)](https://releases.unitynodes.io/android/)
+- [Complete the online form if your interested in being an Operator!](https://forms.gle/5bmnvCvYHhfZqr4DA)
+- [Install the Android App (APK)](https://play.google.com/store/apps/details?id=io.unitynodes.unityapp)
+- iOS App Coming Soon
 
+**Actuation Faciliators:**
+- [Actuation (Onboarding & Support) Facilitator Information](/actuate/unity-network/facilitator) - % splits etc
 
 **More Info**
 - Unity Node Referral Code: **SELFDRIVEN**

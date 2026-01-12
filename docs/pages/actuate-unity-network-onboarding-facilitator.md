@@ -25,6 +25,7 @@ This model is designed to:
 | Operator (ULO) | 60% |
 | **Actuation Facilitator (On-boarding & Support)** | **18%** |
 | Operations & Co-Operative Owners (Passive) | 16% |
+| Administrative Services | 6% |
 
 ## Scenarios Based on Work Effort
 

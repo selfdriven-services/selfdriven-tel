@@ -24,7 +24,7 @@ title: Home
 **Network Validators (Licence Operators):**
 - [Complete the online form if your interested in being an Operator!](https://forms.gle/5bmnvCvYHhfZqr4DA)
 - [Install the Android App](https://play.google.com/store/apps/details?id=io.unitynodes.unityapp)
-- [Install the iOS App](https://play.google.com/store/apps/details?id=io.unitynodes.unityapp)
+- [Install the iOS App](https://apps.apple.com/us/app/unity-network-app/id6755482738)
 
 **Onboarding & Support (Actuation) Facilitators:**
 - [Information](/actuate/unity-network/facilitator) - % splits etc

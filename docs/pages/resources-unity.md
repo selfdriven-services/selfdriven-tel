@@ -50,7 +50,6 @@ permalink: /resources/unity
     - Explorer URL: https://explorer.worldmobile.io
 - [App Issue/Bug Reporting](https://unitynodes.io/bug-report/)
 
-
 ### selfdriven Network Infra
 - [Example Cooperative Infra Agreement](https://www.selfdriven.network/infra-interface/cooperative/agreement)
 

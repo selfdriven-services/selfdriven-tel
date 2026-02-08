@@ -5,7 +5,7 @@ permalink: /our-identity
 ---
 
 # selfdriven.tel — Brand & Voice Guide  
-*(Become an Operator / Unity Network Licence Operator)*
+*Become an Unity Network Verifier (Licence Operator)*
 
 ---
 

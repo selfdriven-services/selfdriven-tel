@@ -6,10 +6,12 @@ permalink: /resources/
 
 ## Resources 
 
+- [Our Identity](/resource/our-identity)
+
 ### Unity
-- [unitynodes.io](https://unitynodes.io)
-- [uno.unitynodes.io](https://uno.unitynodes.io/)
-- [manage.unitynodes.io](https://manage.unitynodes.io/)
+- [unitynodes.io](https://unitynodes.io) - marketing
+- [uno.unitynodes.io](https://uno.unitynodes.io/) - QR logon for mobile app
+- [manage.unitynodes.io](https://manage.unitynodes.io/) - UNO & ULO management
 
 [More Unity Resources ... ](/resources/unity)
 

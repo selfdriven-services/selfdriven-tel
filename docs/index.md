@@ -33,6 +33,7 @@ title: Home
 - Unity Node Referral Code: **SELFDRIVEN**
 - [Resources](/resources/)
 - [Education](/education/)
+	- [Is it verification or validation?](/education/verification-validation)
 
 ---
 

@@ -4,7 +4,7 @@ title: Education - selfdriven Tel
 permalink: /education/
 ---
 
-## Education - Unity Node & Communitised Ownershop
+## Education - Unity Node & Cooperative Ownership
 
 **An educational opportunity.**
 
@@ -21,6 +21,8 @@ permalink: /education/
 - [Getting Started On-Chain](https://www.selfdriven.support/guides/getting-on-chain/)
 
 ### Related
+
+- [Education - Verification & Validation](/education/verification-validation)
 - [actuate.selfdriven.community](https://actuate.selfdriven.community)
 - [selfdriven.network](https://selfdriven.network)
 - [Unity Node Resources](/resources/)

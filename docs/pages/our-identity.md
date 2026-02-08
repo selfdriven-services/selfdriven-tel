@@ -85,9 +85,9 @@ Language should always reflect **community first** — operators, facilitators, 
 
 ### Participation & Action
 
-- Become an Operator  
+- Become an Network Verifier (Licence Operator)  
 - Expression of Interest  
-- Unity Network Licence  
+- Unity Network Licence Operator
 - Activation Code  
 - Install the App  
 - Run the App  

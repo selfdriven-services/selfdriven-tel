@@ -25,17 +25,17 @@ title: Home
 
 **Network Verifiers (Licence Operators):**
 
-- [Complete the online form if your interested in being an Operator!](https://forms.gle/5bmnvCvYHhfZqr4DA)
+- [Complete the online form if your interested in being a Network Verifier!](https://forms.gle/5bmnvCvYHhfZqr4DA)
 - [Install the Android App](https://play.google.com/store/apps/details?id=io.unitynodes.unityapp)
 - [Install the iOS App](https://apps.apple.com/us/app/unity-network-app/id6755482738)
 
 **Onboarding & Support (Actuation) Facilitators:**
 
 - [Information](/actuate/unity-network/facilitator) - % splits etc
+- [Referrer Codes](/resources/unity)
 
 **More Info**
 
-- Unity Node Referral Code: **SELFDRIVEN**
 - [Resources](/resources/)
 - [Education](/education/)
 	- [Is it verification or validation?](/education/verification-validation)

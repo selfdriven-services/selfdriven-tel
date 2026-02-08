@@ -4,15 +4,13 @@ title: Actuation Facilitator - Unity Network - selfdriven Tel
 permalink: /actuate/unity-network/facilitator
 ---
 
-# Licence Operator Actuation Facilitator Information
-
-**On-boarding & Support Facilitatation**
+## Onboarding & Support (Actuation) Facilitator Information
 
 There’s a growing need for people who can guide Unity Licence Operators (people running the app) through setup, activation, and ongoing support. The On-boarding & Support Facilitator role exists specifically for this purpose. Rather than being a technical “help desk,” this role is about enabling real usage, helping Operators run successfully, and supporting them through their first customers and early learning curve.
 
 If you enjoy helping people, a way to participate and build revenue based on a percentage of the resulting rewards. You’ll be supporting new Operators through practical steps, answering questions, and making sure they start earning quickly and confidently. The more active Operators you help bring online and keep operating, the more you earn.
 
-## Standard Revenue Splits
+### Standard Revenue Splits
 
 This model is designed to:
 - reward active contribution
@@ -27,9 +25,9 @@ This model is designed to:
 | Operations & Co-Operative Owners (Passive) | 16% |
 | Administrative Services | 6% |
 
-## Scenarios Based on Work Effort
+### Scenarios Based on Work Effort
 
-### Operator & Actuation Facilator 
+#### Operator & Actuation Facilator 
 
 | Allocation | % |
 |---|:--:|
@@ -37,18 +35,18 @@ This model is designed to:
 | Actuation Facilitator (On-boarding & Support) | 18 |
 | **TOTAL** | **78** |
 
-### Actuation Facilator
+#### Actuation Facilator
 
 | Allocation | % |
 |---|:--:|
 | Actuation Facilitator (On-boarding & Support) | 18 |
 | **TOTAL** | **18** |
 
-### Summary
+#### Summary
 
 - Operators earn the greater percentage of the rewards because they are actively running services
 - Actuation Facilitators earn by onboarding and supporting operators
 
-### Next Steps
+#### Next Steps
 - [Register Expression of Interest](https://forms.gle/mMpCXBjM76ycKwpx6)
 - If successful you will be allocated a unique actuator (referral) code for use by the people you onboard, during their getting started process.

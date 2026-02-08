@@ -6,7 +6,7 @@ permalink: /resources/
 
 ## Resources 
 
-- [Our Identity](/resource/our-identity)
+- [Our Identity](/our-identity)
 
 ### Unity
 - [unitynodes.io](https://unitynodes.io) - marketing

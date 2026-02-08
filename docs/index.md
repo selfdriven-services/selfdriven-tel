@@ -5,9 +5,11 @@ title: Home
 
 ## Telecommunication Network Services
 
+- [Our Identity](/our-identity)
+
 ### selfdriven Services managed Cooperative Infra:
 
-#### [Unity Nodes](https://unitynodes.io)
+### [Unity Nodes](https://unitynodes.io)
 
 **On-Chain (Tokens):**
 
@@ -21,15 +23,18 @@ title: Home
     - [Unity Node, WorldMobile Chain](https://explorer.worldmobile.io/token/0x0297ADB0934D6356dBdEb5E313B12e0b69d327ec/instance/96927454316492995040330850595579673656708378049691829875144441780039898348189)
     - 200 operator licences
 
-**Network Validators (Licence Operators):**
+**Network Verifiers (Licence Operators):**
+
 - [Complete the online form if your interested in being an Operator!](https://forms.gle/5bmnvCvYHhfZqr4DA)
 - [Install the Android App](https://play.google.com/store/apps/details?id=io.unitynodes.unityapp)
 - [Install the iOS App](https://apps.apple.com/us/app/unity-network-app/id6755482738)
 
 **Onboarding & Support (Actuation) Facilitators:**
+
 - [Information](/actuate/unity-network/facilitator) - % splits etc
 
 **More Info**
+
 - Unity Node Referral Code: **SELFDRIVEN**
 - [Resources](/resources/)
 - [Education](/education/)

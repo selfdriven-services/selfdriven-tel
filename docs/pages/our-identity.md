@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Resources Brand - selfdriven Tel
-permalink: /resources/our-identity
+permalink: /our-identity
 ---
 
 # selfdriven.tel — Brand & Voice Guide  
@@ -194,4 +194,4 @@ Join a global community verifying the Unity Network. With your phone and Unity N
 
 ---
 
-- [Welcome](/resources/our-identity/welcome)
+- [Welcome](/our-identity/welcome)

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Welcome | Resources Our Identity - selfdriven Tel
-permalink: /resources/our-identity/welcome
+permalink: /our-identity/welcome
 ---
 
 # Welcome — Let’s get you started as a Unity Network Licence Operator

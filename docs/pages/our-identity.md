@@ -181,7 +181,7 @@ Patient, explanatory, reassuring.
 
 ## Writing Templates & Patterns
 
-### Why Become an Operator
+### Why Become an Network Verifier (Operator)
 
 Join a global community verifying the Unity Network. With your phone and Unity Network Licence, contribute to real-world network verification and earn rewards — step by step, without corporate gatekeepers.
 
@@ -195,3 +195,4 @@ Join a global community verifying the Unity Network. With your phone and Unity N
 ---
 
 - [Welcome](/our-identity/welcome)
+- [Verification vs Validation](/education/verification-validation)

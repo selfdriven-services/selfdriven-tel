@@ -18,12 +18,12 @@ Let’s get started.
 
 ---
 
-## 🚀 Step 1 — Confirm your Operator access
+## Step 1 — Confirm your Operator access
 
 You should already have:
 
-✅ Your **Unity Network Licence Activation Code**  
-✅ A link to download the **Operator App**
+- Your **Unity Network Licence Activation Code**  
+- A link to download the **Operator App**
 
 If not, check your inbox or reach out via the support channel.
 
@@ -33,7 +33,7 @@ Keep it safe.
 
 ---
 
-## 📲 Step 2 — Install the Operator App
+## Step 2 — Install the Operator App
 
 1. Download the Operator App using the link provided.  
 2. Install it on your phone or device.  
@@ -43,7 +43,7 @@ That’s it — you’re now registered as a **Unity Network Licence Operator**.
 
 ---
 
-## ▶️ Step 3 — Run the App
+## Step 3 — Run the App
 
 Once activated:
 
@@ -57,7 +57,7 @@ This is how you contribute — and how you earn.
 
 ---
 
-## 📊 Step 4 — Monitor & Maintain
+## Step 4 — Monitor & Maintain
 
 Think of this like a small nano-business:
 
@@ -71,7 +71,7 @@ Simple.
 
 ---
 
-## 💰 Step 5 — Earn Rewards
+## Step 5 — Earn Rewards
 
 As your device helps verify real-world network behaviour, rewards accumulate automatically.
 
@@ -83,7 +83,7 @@ You’re helping create **transparent, verifiable telecommunications data** whil
 
 ---
 
-## 🤝 You’re Part of Something Bigger
+## You’re Part of Something Bigger
 
 You’re now one of many Operators worldwide helping build:
 
@@ -97,7 +97,7 @@ Thank you for participating.
 
 ---
 
-## 🧭 Need Help?
+## Need Help?
 
 If anything feels unclear:
 

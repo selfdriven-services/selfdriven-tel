@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: selfdriven
 title: Education - selfdriven Tel
 permalink: /education/
 ---

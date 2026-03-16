@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: selfdriven
 title: Resources - selfdriven Tel
 permalink: /resources/
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: selfdriven
 title: Welcome | Resources Our Identity - selfdriven Tel
 permalink: /our-identity/welcome
 ---

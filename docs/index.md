@@ -8,9 +8,9 @@ title: selfdriven Tel
 - [Our Identity](/our-identity)
 - [selfdriven.tel](https://selfdriven.tel)
 
-## selfdriven Services managed Cooperative Infra:
-
 ### Unity Nodes
+
+*Cooperative Infra managed by selfdriven Services*
 
 - **#SDNIIUN01**: 
     - [selfdriven Network Infra, Cardano](https://adastat.net/policies/269366d093249b0cac98fa9fcbc374578429534e3b7adeac09f081e3)

@@ -1,17 +1,17 @@
 ---
 layout: selfdriven
-title: Home
+title: selfdriven Tel
 ---
 
-## Telecommunication Network Services
+# Telecommunication Network Services
 
 - [Our Identity](/our-identity)
 
-### selfdriven Services managed Cooperative Infra:
+## selfdriven Services managed Cooperative Infra:
 
-### [Unity Nodes](https://unitynodes.io)
+### Unity Nodes
 
-**On-Chain (Tokens):**
+On-Chain (Tokens)
 
 - **#SDNIIUN01**: 
     - [selfdriven Network Infra, Cardano](https://adastat.net/policies/269366d093249b0cac98fa9fcbc374578429534e3b7adeac09f081e3)
@@ -23,18 +23,18 @@ title: Home
     - [Unity Node, WorldMobile Chain](https://explorer.worldmobile.io/token/0x0297ADB0934D6356dBdEb5E313B12e0b69d327ec/instance/96927454316492995040330850595579673656708378049691829875144441780039898348189)
     - 200 operator licences
 
-**Network Verifiers (Licence Operators):**
+#### Network Verifiers (Licence Operators):
 
 - [Complete the online form if your interested in being a Network Verifier!](https://forms.gle/5bmnvCvYHhfZqr4DA)
 - [Install the Android App](https://play.google.com/store/apps/details?id=io.unitynodes.unityapp)
 - [Install the iOS App](https://apps.apple.com/us/app/unity-network-app/id6755482738)
 
-**Onboarding & Support (Actuation) Facilitators:**
+#### Onboarding & Support (Actuation) Facilitators:
 
 - [Information](/actuate/unity-network/facilitator) - % splits etc
 - [Referrer Codes](/resources/unity)
 
-**More Info**
+#### More Info
 
 - [Resources](/resources/)
 - [Education](/education/)

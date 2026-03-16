@@ -31,8 +31,6 @@ Your activation code connects **you** to the Unity Network verification layer an
 
 Keep it safe.
 
----
-
 ## Step 2 — Install the Operator App
 
 1. Download the Operator App using the link provided.  
@@ -40,8 +38,6 @@ Keep it safe.
 3. Open the app and enter your **Activation Code** when prompted.  
 
 That’s it — you’re now registered as a **Unity Network Licence Operator**.
-
----
 
 ## Step 3 — Run the App
 
@@ -55,8 +51,6 @@ Your device now participates in **telecommunications verification**.
 
 This is how you contribute — and how you earn.
 
----
-
 ## Step 4 — Monitor & Maintain
 
 Think of this like a small nano-business:
@@ -69,8 +63,6 @@ Consistent uptime = more verification contribution = better rewards.
 
 Simple.
 
----
-
 ## Step 5 — Earn Rewards
 
 As your device helps verify real-world network behaviour, rewards accumulate automatically.
@@ -80,8 +72,6 @@ No speculation.
 Just participation → contribution → reward.
 
 You’re helping create **transparent, verifiable telecommunications data** while creating a new income stream.
-
----
 
 ## You’re Part of Something Bigger
 
@@ -95,8 +85,6 @@ Decentralisation works best when communities help verify reality.
 
 Thank you for participating.
 
----
-
 ## Need Help?
 
 If anything feels unclear:
@@ -106,8 +94,6 @@ If anything feels unclear:
 - Reach out via the support channel  
 
 We’re here to help you succeed.
-
----
 
 ## Welcome aboard.
 

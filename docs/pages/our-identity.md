@@ -7,8 +7,6 @@ permalink: /our-identity
 # selfdriven.tel — Brand & Voice Guide  
 *Become an Unity Network Verifier (Licence Operator)*
 
----
-
 ## Core Voice Overview
 
 **selfdriven.tel** speaks with **practical optimism**, **decentralised empowerment**, and **community-centric clarity**.
@@ -18,8 +16,6 @@ We believe telecommunications should be **verifiable by people**, not only asser
 We speak to **doers** — builders, early adopters, community orchestrators — with **straightforward guidance**, **actionable clarity**, and **positive reinforcement**.
 
 We **do not hype; we explain**. We make telco verification participation **understandable, accessible, and achievable**.
-
----
 
 ## Voice Foundations
 
@@ -33,8 +29,6 @@ We speak to real operators — people who want to **do**, not just read concepts
 
 We explain the **how** as clearly as the **why**.
 
----
-
 ### Empowering but Grounded
 
 This is about **opportunity**, not speculation. We frame participation as:
@@ -44,8 +38,6 @@ This is about **opportunity**, not speculation. We frame participation as:
 - a tangible **nano-business** opportunity
 
 We celebrate achievement but stay rooted in **real steps** and **real expectations**.
-
----
 
 ### Community-Driven
 
@@ -57,8 +49,6 @@ Our voice uplifts the broader ecosystem:
 
 Language should always reflect **community first** — operators, facilitators, verifiers, builders, and users.
 
----
-
 ## Mini Style Guide
 
 ### Core Tone Attributes
@@ -69,8 +59,6 @@ Language should always reflect **community first** — operators, facilitators, 
 4. **Action-oriented** — every piece points to “what you do next.”  
 5. **Community-centric** — consistently reference people, participation, and shared outcomes.
 
----
-
 ### Sentence & Cadence Rules
 
 - Prefer **short, direct sentences**.  
@@ -78,8 +66,6 @@ Language should always reflect **community first** — operators, facilitators, 
 - Replace fluff with **clear mechanics**.  
 - Use vocabulary that feels like instruction and support:  
   **install, run, verify, contribute, join, participate, share, earn**.
-
----
 
 ## Preferred Vocabulary
 
@@ -113,8 +99,6 @@ Language should always reflect **community first** — operators, facilitators, 
 - Help & FAQs  
 - Contact  
 
----
-
 ## Words & Phrases We Avoid
 
 To maintain clarity and trust, avoid:
@@ -130,8 +114,6 @@ Prefer real descriptors:
 - “Verify real-world network performance.”  
 - “Participate in network verification.”  
 - “Earn rewards by contributing verified observations.”
-
----
 
 ## Signature Messaging Themes
 
@@ -155,8 +137,6 @@ Use these in marketing content, guidance pages, and onboarding.
 - “Together we build **shared proof** of how networks perform.”  
 - “Community verification strengthens accountability.”
 
----
-
 ## Tone Adaptations (Contextual)
 
 While **voice stays consistent**, **tone** can shift based on audience.
@@ -176,8 +156,6 @@ Engaging, positive, inclusive.
 ### FAQs / Support  
 Patient, explanatory, reassuring.  
 > “If credits become required, here’s what to expect…”
-
----
 
 ## Writing Templates & Patterns
 

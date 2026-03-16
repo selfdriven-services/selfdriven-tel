@@ -4,14 +4,14 @@ title: Resources - selfdriven Tel
 permalink: /resources/unity
 ---
 
-## Unity Resources 
+# Unity Resources 
 
-### Websites & Apps
+## Websites & Apps
 - [unitynodes.io](https://unitynodes.io)
 - [uno.unitynodes.io](https://uno.unitynodes.io/)
 - [manage.unitynodes.io](https://manage.unitynodes.io/)
 
-### Referrer Codes
+## Referrer Codes
 
 |Name|Code|
 |:---|:--:|
@@ -27,7 +27,7 @@ permalink: /resources/unity
 |selfdriven Foundation|YK2ZEW|
 |Jo Allum|KUGFFN-JA|
 
-### Other
+## Other
 - [Article](https://x.com/krabalot/status/1971709580817076530?s=46&t=M_z10jf1hWN5hn7liKVlVA)
 - [Article: Unity Node as Income Stream](https://x.com/wmtxlady/status/1982001238599151817?s=46&t=M_z10jf1hWN5hn7liKVlVA)
 - [Podcast](https://youtu.be/pcmbBwExphM?si=owtZ7NwwGOcntNaa)
@@ -50,9 +50,9 @@ permalink: /resources/unity
     - Explorer URL: https://explorer.worldmobile.io
 - [App Issue/Bug Reporting](https://unitynodes.io/bug-report/)
 
-### selfdriven Network Infra
+## selfdriven Network Infra
 - [Example Cooperative Infra Agreement](https://www.selfdriven.network/infra-interface/cooperative/agreement)
 
-### Related
+## Related
 - [Education](/education/)
 

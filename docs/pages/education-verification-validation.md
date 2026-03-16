@@ -4,14 +4,12 @@ title: Education - selfdriven Tel
 permalink: /education/verification-validation
 ---
 
-## Education - What Unity Nodes Do: Verification, Not Judgement
+# Education - What Unity Nodes Do: Verification, Not Judgement
 
 Unity Nodes **verify** whether telecom services actually happened.  
 They don’t decide what those services *mean* — they prove what occurred.
 
----
-
-### Verification: establishing the facts
+## Verification: establishing the facts
 
 A Unity Node independently checks things like:
 - Was a network signal present at a specific place and time?
@@ -25,9 +23,7 @@ In simple terms:
 
 **Verification answers:** “Did this telecom service actually occur?”
 
----
-
-### What Unity Nodes don’t do
+## What Unity Nodes don’t do
 
 Unity Nodes **do not**:
 - Decide whether coverage is “good enough”
@@ -37,9 +33,7 @@ Unity Nodes **do not**:
 
 Those decisions depend on **context**, **policy**, and **rules** — and that’s a different step.
 
----
-
-### Validation: applying meaning to verified facts
+## Validation: applying meaning to verified facts
 
 Once a Unity Node has verified the facts, others can **validate** them.
 
@@ -57,9 +51,7 @@ Validation is performed by:
 
 Unity Nodes stay neutral. They provide **verified evidence**, not outcomes.
 
----
-
-### Why this separation matters
+## Why this separation matters
 
 By separating verification from validation:
 - Facts remain neutral and reusable
@@ -67,14 +59,12 @@ By separating verification from validation:
 - Evidence can be trusted across disputes, jurisdictions, and use cases
 - Decisions become transparent and accountable
 
----
-
-### One-line summary
+## One-line summary
 
 - **Unity Nodes verify that telecom services actually occurred.  
 - Others validate those verified facts for regulation, payment, and compliance.**
 
-### Related
+## Related
 - [actuate.selfdriven.community](https://actuate.selfdriven.community)
 - [selfdriven.network](https://selfdriven.network)
 - [Unity Node Resources](/resources/)

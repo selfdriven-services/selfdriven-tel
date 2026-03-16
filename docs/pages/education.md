@@ -4,11 +4,11 @@ title: Education - selfdriven Tel
 permalink: /education/
 ---
 
-## Education - Unity Node & Cooperative Ownership
+# Education - Unity Node & Cooperative Ownership
 
 **An educational opportunity.**
 
-###  Educational Topics / Concepts
+##  Educational Topics / Concepts
 
 - Decentralised Utility Services
     - WorldMobile
@@ -20,7 +20,7 @@ permalink: /education/
 - Communitised Ownership as Tokenisation On-Chain
 - [Getting Started On-Chain](https://www.selfdriven.support/guides/getting-on-chain/)
 
-### Related
+## Related
 
 - [Education - Verification & Validation](/education/verification-validation)
 - [actuate.selfdriven.community](https://actuate.selfdriven.community)

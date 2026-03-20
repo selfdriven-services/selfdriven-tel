@@ -1,0 +1,902 @@
+---
+layout: selfdriven
+title: Scout & Runner Alpha Onboarding - Resources - selfdriven Tel
+permalink: /resources/unity/scout_runner_alpha_onboarding
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scout & Runner Alpha — Onboarding</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #080e1a;
+    --bg2: #0c1525;
+    --bg3: #111d30;
+    --panel: rgba(255,255,255,0.04);
+    --panel-hover: rgba(255,255,255,0.07);
+    --border: rgba(255,255,255,0.08);
+    --blue: #3b82f6;
+    --blue-light: #60a5fa;
+    --blue-glow: rgba(59,130,246,0.15);
+    --cyan: #06b6d4;
+    --text: #e8edf5;
+    --text-muted: #6b7fa3;
+    --text-dim: #3d5270;
+    --accent: #1d4ed8;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ── BACKGROUND EFFECTS ── */
+  .bg-grid {
+    position: fixed; inset: 0; z-index: 0; pointer-events: none;
+    background-image:
+      linear-gradient(rgba(59,130,246,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(59,130,246,0.04) 1px, transparent 1px);
+    background-size: 48px 48px;
+    mask-image: radial-gradient(ellipse 80% 80% at 50% 0%, black 40%, transparent 100%);
+  }
+
+  .bg-orb {
+    position: fixed; border-radius: 50%; pointer-events: none; z-index: 0;
+    filter: blur(80px); opacity: 0.25;
+  }
+  .bg-orb-1 {
+    width: 600px; height: 600px;
+    background: radial-gradient(circle, #1d4ed8 0%, transparent 70%);
+    top: -200px; left: -100px;
+  }
+  .bg-orb-2 {
+    width: 400px; height: 400px;
+    background: radial-gradient(circle, #0891b2 0%, transparent 70%);
+    bottom: 10%; right: -100px;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 20px 48px;
+    background: rgba(8,14,26,0.85);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .nav-logo {
+    display: flex; align-items: center; gap: 10px;
+    font-family: 'Syne', sans-serif; font-weight: 700;
+    font-size: 15px; color: var(--text);
+  }
+
+  .nav-logo svg { flex-shrink: 0; }
+
+  .nav-badge {
+    font-family: 'DM Sans', sans-serif; font-size: 11px; font-weight: 500;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--blue-light); background: var(--blue-glow);
+    border: 1px solid rgba(59,130,246,0.25);
+    padding: 4px 10px; border-radius: 20px;
+  }
+
+  .nav-progress {
+    display: flex; align-items: center; gap: 6px;
+  }
+
+  .nav-dot {
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--text-dim); cursor: pointer;
+    transition: all 0.3s;
+  }
+  .nav-dot.active { background: var(--blue); box-shadow: 0 0 8px var(--blue); }
+  .nav-dot:hover { background: var(--blue-light); }
+
+  /* ── HERO ── */
+  .hero {
+    position: relative; z-index: 1;
+    min-height: 100vh;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    text-align: center; padding: 120px 48px 80px;
+  }
+
+  .hero-eyebrow {
+    font-size: 11px; font-weight: 500; letter-spacing: 0.2em;
+    text-transform: uppercase; color: var(--blue-light);
+    margin-bottom: 24px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .hero-eyebrow::before, .hero-eyebrow::after {
+    content: ''; width: 32px; height: 1px;
+    background: linear-gradient(90deg, transparent, var(--blue));
+  }
+  .hero-eyebrow::after { background: linear-gradient(90deg, var(--blue), transparent); }
+
+  .hero h1 {
+    font-family: 'Syne', sans-serif;
+    font-size: clamp(52px, 8vw, 96px);
+    font-weight: 800; line-height: 0.95;
+    letter-spacing: -0.03em;
+    margin-bottom: 8px;
+  }
+
+  .hero h1 .line-1 { color: var(--text); }
+  .hero h1 .line-2 {
+    background: linear-gradient(135deg, var(--blue-light), var(--cyan));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  }
+
+  .hero-sub {
+    font-size: 18px; color: var(--text-muted); font-weight: 300;
+    max-width: 520px; margin: 28px auto 48px;
+    line-height: 1.65;
+  }
+
+  .hero-actions {
+    display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;
+  }
+
+  .btn-primary {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--blue); color: #fff;
+    font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 500;
+    padding: 14px 28px; border-radius: 8px; border: none; cursor: pointer;
+    text-decoration: none; transition: all 0.2s;
+    box-shadow: 0 0 30px rgba(59,130,246,0.3);
+  }
+  .btn-primary:hover {
+    background: #2563eb; transform: translateY(-2px);
+    box-shadow: 0 0 40px rgba(59,130,246,0.5);
+  }
+
+  .btn-outline {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: transparent; color: var(--text-muted);
+    font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 500;
+    padding: 14px 28px; border-radius: 8px;
+    border: 1px solid var(--border); cursor: pointer;
+    text-decoration: none; transition: all 0.2s;
+  }
+  .btn-outline:hover { color: var(--text); border-color: rgba(255,255,255,0.2); }
+
+  .hero-scroll {
+    position: absolute; bottom: 48px;
+    display: flex; flex-direction: column; align-items: center; gap: 8px;
+    color: var(--text-dim); font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase;
+    animation: float 2.5s ease-in-out infinite;
+  }
+  .hero-scroll svg { opacity: 0.4; }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(6px); }
+  }
+
+  /* ── MASCOT ── */
+  .mascot-wrap {
+    position: relative; margin-bottom: 40px;
+    width: 120px; height: 120px;
+  }
+
+  .mascot-ring {
+    position: absolute; inset: -12px;
+    border-radius: 50%;
+    border: 1px solid rgba(59,130,246,0.2);
+    animation: spin 20s linear infinite;
+  }
+  .mascot-ring::before {
+    content: ''; position: absolute;
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--blue); top: -4px; left: 50%; transform: translateX(-50%);
+    box-shadow: 0 0 12px var(--blue);
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .mascot-icon {
+    width: 120px; height: 120px; border-radius: 50%;
+    background: linear-gradient(135deg, #0f2044 0%, #1a3a6e 100%);
+    border: 2px solid rgba(59,130,246,0.3);
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 0 40px rgba(59,130,246,0.2), inset 0 0 30px rgba(59,130,246,0.05);
+  }
+
+  /* ── SECTIONS CONTAINER ── */
+  .sections {
+    position: relative; z-index: 1;
+    max-width: 900px; margin: 0 auto;
+    padding: 0 24px 120px;
+  }
+
+  /* ── SECTION CARD ── */
+  .section-card {
+    margin-bottom: 16px;
+    border-radius: 16px;
+    border: 1px solid var(--border);
+    background: var(--panel);
+    overflow: hidden;
+    transition: border-color 0.3s;
+  }
+  .section-card:hover { border-color: rgba(59,130,246,0.25); }
+  .section-card.open { border-color: rgba(59,130,246,0.3); }
+
+  .section-header {
+    display: flex; align-items: center; gap: 20px;
+    padding: 24px 28px; cursor: pointer;
+    user-select: none;
+    transition: background 0.2s;
+  }
+  .section-header:hover { background: var(--panel-hover); }
+
+  .section-number {
+    font-family: 'Syne', sans-serif;
+    font-size: 11px; font-weight: 700;
+    letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--blue); min-width: 28px;
+  }
+
+  .section-title {
+    font-family: 'Syne', sans-serif;
+    font-size: 17px; font-weight: 700;
+    color: var(--text); flex: 1;
+  }
+
+  .section-chevron {
+    width: 20px; height: 20px; color: var(--text-dim);
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+  }
+  .section-card.open .section-chevron { transform: rotate(180deg); color: var(--blue); }
+
+  .section-body {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .section-card.open .section-body { max-height: 1200px; }
+
+  .section-content {
+    padding: 0 28px 28px;
+    padding-left: 76px;
+    color: var(--text-muted);
+    font-size: 15px; line-height: 1.75;
+    font-weight: 300;
+  }
+
+  .section-content p + p { margin-top: 14px; }
+
+  .section-content .sub-heading {
+    font-family: 'Syne', sans-serif;
+    font-size: 13px; font-weight: 600;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--blue-light); margin: 22px 0 10px;
+  }
+
+  .content-list {
+    list-style: none; padding: 0; margin: 12px 0;
+    display: flex; flex-direction: column; gap: 8px;
+  }
+  .content-list li {
+    display: flex; align-items: flex-start; gap: 10px;
+    font-size: 14px; color: var(--text-muted);
+  }
+  .content-list li::before {
+    content: ''; flex-shrink: 0;
+    width: 5px; height: 5px; border-radius: 50%;
+    background: var(--blue); margin-top: 8px;
+  }
+
+  .content-list.checked li::before {
+    content: '✓'; width: auto; height: auto;
+    background: none; color: var(--blue-light);
+    font-size: 12px; font-weight: 700;
+    margin-top: 2px;
+  }
+
+  .info-box {
+    background: rgba(59,130,246,0.07);
+    border: 1px solid rgba(59,130,246,0.2);
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin-top: 18px;
+    font-size: 13px; color: var(--text-muted);
+    line-height: 1.6;
+  }
+  .info-box strong { color: var(--blue-light); }
+
+  .warning-box {
+    background: rgba(239,68,68,0.06);
+    border: 1px solid rgba(239,68,68,0.2);
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin-top: 18px;
+    font-size: 13px; color: #f87171;
+    line-height: 1.6;
+  }
+
+  /* ── TIMELINE ── */
+  .timeline {
+    margin-top: 16px;
+    display: flex; flex-direction: column; gap: 0;
+    position: relative;
+  }
+  .timeline::before {
+    content: ''; position: absolute;
+    left: 20px; top: 24px; bottom: 24px;
+    width: 1px; background: linear-gradient(to bottom, var(--blue), transparent);
+  }
+
+  .timeline-item {
+    display: flex; gap: 20px; padding: 12px 0;
+  }
+
+  .timeline-dot {
+    flex-shrink: 0; width: 40px; height: 40px;
+    border-radius: 50%;
+    background: var(--bg3); border: 2px solid rgba(59,130,246,0.4);
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Syne', sans-serif; font-size: 12px; font-weight: 700; color: var(--blue);
+    position: relative; z-index: 1;
+  }
+
+  .timeline-text strong {
+    display: block; font-size: 13px; font-weight: 500;
+    color: var(--text); margin-bottom: 2px;
+    font-family: 'Syne', sans-serif;
+  }
+  .timeline-text span { font-size: 13px; color: var(--text-muted); }
+
+  /* ── PHASE CARDS ── */
+  .phase-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px;
+    margin-top: 16px;
+  }
+
+  .phase-card {
+    background: var(--bg3); border: 1px solid var(--border);
+    border-radius: 12px; padding: 18px;
+    transition: border-color 0.2s;
+  }
+  .phase-card:hover { border-color: rgba(59,130,246,0.3); }
+
+  .phase-label {
+    font-family: 'Syne', sans-serif;
+    font-size: 10px; font-weight: 700;
+    letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--blue); margin-bottom: 8px;
+  }
+  .phase-title {
+    font-family: 'Syne', sans-serif;
+    font-size: 15px; font-weight: 700; color: var(--text);
+    margin-bottom: 6px;
+  }
+  .phase-desc {
+    font-size: 12px; color: var(--text-muted); line-height: 1.5;
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    position: relative; z-index: 1;
+    text-align: center;
+    padding: 60px 48px 80px;
+    border-top: 1px solid var(--border);
+  }
+
+  .footer-logo {
+    font-family: 'Syne', sans-serif; font-weight: 800;
+    font-size: 28px; letter-spacing: -0.02em;
+    background: linear-gradient(135deg, var(--blue-light), var(--cyan));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    margin-bottom: 12px;
+  }
+
+  footer p {
+    font-size: 13px; color: var(--text-dim); max-width: 480px; margin: 0 auto;
+    line-height: 1.7;
+  }
+
+  /* ── STICKY PROGRESS BAR ── */
+  .progress-bar {
+    position: fixed; top: 0; left: 0; z-index: 200;
+    height: 2px;
+    background: linear-gradient(90deg, var(--blue), var(--cyan));
+    transition: width 0.2s;
+    box-shadow: 0 0 10px var(--blue);
+  }
+
+  /* ── OPEN ALL ── */
+  .controls {
+    display: flex; gap: 12px; justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+
+  .ctrl-btn {
+    font-family: 'DM Sans', sans-serif; font-size: 12px;
+    font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase;
+    color: var(--text-muted); background: transparent;
+    border: 1px solid var(--border); border-radius: 6px;
+    padding: 7px 14px; cursor: pointer; transition: all 0.2s;
+  }
+  .ctrl-btn:hover { color: var(--text); border-color: rgba(255,255,255,0.2); }
+
+  /* ── ANIMATIONS ── */
+  .reveal {
+    opacity: 0; transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  .reveal.visible { opacity: 1; transform: none; }
+
+  @media (max-width: 640px) {
+    nav { padding: 16px 20px; }
+    .hero { padding: 100px 20px 60px; }
+    .sections { padding: 0 16px 80px; }
+    .section-content { padding-left: 28px; }
+    .phase-grid { grid-template-columns: 1fr; }
+    .nav-progress { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar" style="width:0%"></div>
+<div class="bg-grid"></div>
+<div class="bg-orb bg-orb-1"></div>
+<div class="bg-orb bg-orb-2"></div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">
+    <!-- Unity triple-arc U mark -->
+    <svg width="32" height="32" viewBox="0 0 100 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <!-- Outer arc -->
+      <path d="M10 10 L10 62 Q10 100 50 100 Q90 100 90 62 L90 10" stroke="white" stroke-width="11" stroke-linecap="round" fill="none"/>
+      <!-- Middle arc -->
+      <path d="M27 10 L27 62 Q27 83 50 83 Q73 83 73 62 L73 10" stroke="white" stroke-width="11" stroke-linecap="round" fill="none"/>
+      <!-- Inner arc -->
+      <path d="M44 10 L44 62 Q44 66 50 66 Q56 66 56 62 L56 10" stroke="white" stroke-width="11" stroke-linecap="round" fill="none"/>
+    </svg>
+    <span style="letter-spacing:0.18em">UNITY</span>
+  </div>
+  <div class="nav-progress" id="navDots"></div>
+  <div class="nav-badge">Alpha</div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero-eyebrow">Unity Network — Scout & Runner</div>
+  <div class="mascot-wrap">
+    <div class="mascot-ring"></div>
+    <div class="mascot-icon">
+      <svg width="68" height="76" viewBox="0 0 100 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M10 10 L10 62 Q10 100 50 100 Q90 100 90 62 L90 10" stroke="white" stroke-width="10" stroke-linecap="round" fill="none"/>
+        <path d="M27 10 L27 62 Q27 83 50 83 Q73 83 73 62 L73 10" stroke="white" stroke-width="10" stroke-linecap="round" fill="none"/>
+        <path d="M44 10 L44 62 Q44 66 50 66 Q56 66 56 62 L56 10" stroke="white" stroke-width="10" stroke-linecap="round" fill="none"/>
+      </svg>
+    </div>
+  </div>
+  <h1>
+    <div class="line-1">Scout &</div>
+    <div class="line-2">Runner Alpha</div>
+  </h1>
+  <p class="hero-sub">You are among the first network participants to experience Scout & Runner ahead of broader release. Welcome to the Alpha onboarding package.</p>
+  <div class="hero-actions">
+    <a href="#sections" class="btn-primary">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 3v10M3 8l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Begin Onboarding
+    </a>
+    <button class="btn-outline" onclick="expandAll()">
+      Expand All Sections
+    </button>
+  </div>
+  <div class="hero-scroll">
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 2v10M2 7l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    Scroll
+  </div>
+</section>
+
+<!-- SECTIONS -->
+<div class="sections" id="sections">
+  <div class="controls">
+    <button class="ctrl-btn" onclick="expandAll()">Expand All</button>
+    <button class="ctrl-btn" onclick="collapseAll()">Collapse All</button>
+  </div>
+
+  <!-- 1. Welcome -->
+  <div class="section-card reveal" data-section="1">
+    <div class="section-header" onclick="toggleSection(this)">
+      <span class="section-number">01</span>
+      <span class="section-title">Welcome</span>
+      <svg class="section-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <div class="section-body">
+      <div class="section-content">
+        <p>You are among the first network participants to experience Scout & Runner ahead of broader release. This Alpha is an early, hands-on phase focused on learning workflows, following defined processes, and providing structured feedback.</p>
+
+        <div class="sub-heading">Accessing Scout & Runner</div>
+        <p>When publicly launched, Scout & Runner will appear in the Tasks tab within the Unity App. From there, you will be able to opt in and will be redirected to the Scout & Runner interface via a secure mobile web experience. You will log in using your Unity credentials, for example via NFT or email.</p>
+        <p>The Scout & Runner interface is accessible on both mobile devices and desktop computers.</p>
+        <div class="info-box">
+          <strong>Alpha Access:</strong> During early and closed phases like this Alpha, access is provided via a direct hyperlink. All activity, including task progress and UP incentives, is automatically linked to your Unity account.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Alpha Incentives -->
+  <div class="section-card reveal" data-section="2">
+    <div class="section-header" onclick="toggleSection(this)">
+      <span class="section-number">02</span>
+      <span class="section-title">Alpha Incentives (UP)</span>
+      <svg class="section-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <div class="section-body">
+      <div class="section-content">
+        <p>As an Alpha participant, you will be awarded <strong style="color:var(--blue-light)">UP (Unity Points)</strong> for completing specific tasks during the Alpha phase.</p>
+
+        <div class="sub-heading">UP-earning activities</div>
+        <ul class="content-list">
+          <li>Submitting research through MapQuest</li>
+          <li>Completing Scout and Runner tasks as instructed</li>
+          <li>Providing accurate and timely submissions</li>
+        </ul>
+
+        <div class="info-box">
+          UPs are tracked automatically and granted subject to <strong>administrative review and approval</strong>, as well as successful completion of any required validation and verification tasks. UPs are awarded as network incentives and do not represent compensation, wages, or guaranteed rewards.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. Alpha Testing Version -->
+  <div class="section-card reveal" data-section="3">
+    <div class="section-header" onclick="toggleSection(this)">
+      <span class="section-number">03</span>
+      <span class="section-title">What Is the Alpha Testing Version?</span>
+      <svg class="section-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <div class="section-body">
+      <div class="section-content">
+        <p>This Alpha testing version of Scout & Runner is:</p>
+        <ul class="content-list">
+          <li>An early testing and learning environment</li>
+          <li>A way to understand Scout & Runner roles and tooling</li>
+          <li>A feedback-driven phase that informs future releases</li>
+        </ul>
+        <div class="warning-box">
+          Bugs, interruptions, and incomplete features are expected. This Alpha is not feature-complete and does not guarantee future access, rewards, roles, or continued participation.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. Confidentiality -->
+  <div class="section-card reveal" data-section="4">
+    <div class="section-header" onclick="toggleSection(this)">
+      <span class="section-number">04</span>
+      <span class="section-title">Confidentiality & Participation Rules</span>
+      <svg class="section-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <div class="section-body">
+      <div class="section-content">
+        <p>You will have access to non-public content and are bound by the confidentiality terms agreed to in your application. By participating, you agree to:</p>
+        <ul class="content-list checked">
+          <li>Keep all Alpha content confidential</li>
+          <li>Not share screenshots, videos, or details publicly</li>
+          <li>Follow instructions exactly as provided</li>
+          <li>Not automate, script, or modify any tasks or workflows</li>
+        </ul>
+        <div class="warning-box">
+          All materials in this onboarding package are confidential and intended solely for approved Alpha participants. Failure to follow these rules may result in removal from the Alpha at Unity's discretion.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. Process -->
+  <div class="section-card reveal" data-section="5">
+    <div class="section-header" onclick="toggleSection(this)">
+      <span class="section-number">05</span>
+      <span class="section-title">How the Alpha Testing Process Works</span>
+      <svg class="section-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <div class="section-body">
+      <div class="section-content">
+        <p>The Alpha testing process runs in clear, sequential phases. Participants will progress step by step through each module.</p>
+        <div class="phase-grid">
+          <div class="phase-card">
+            <div class="phase-label">Phase 1</div>
+            <div class="phase-title">MapQuest</div>
+            <div class="phase-desc">Research and submission workflows</div>
+          </div>
+          <div class="phase-card">
+            <div class="phase-label">Phase 2</div>
+            <div class="phase-title">Scout Role</div>
+            <div class="phase-desc">Live validation tasks</div>
+          </div>
+          <div class="phase-card">
+            <div class="phase-label">Phase 3</div>
+            <div class="phase-title">Runner Role</div>
+            <div class="phase-desc">Ongoing verification tasks</div>
+          </div>
+        </div>
+        <div class="info-box" style="margin-top:16px;">
+          Each phase builds on the previous one. Completion of a phase does not guarantee immediate access to the next — short waiting periods of up to one or two days may occur between modules.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6. MapQuest -->
+  <div class="section-card reveal" data-section="6">
+    <div class="section-header" onclick="toggleSection(this)">
+      <span class="section-number">06</span>
+      <span class="section-title">What Is MapQuest</span>
+      <svg class="section-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <div class="section-body">
+      <div class="section-content">
+        <p>MapQuest is the research and submission module used in Scout & Runner. It is part of the full production build and opens during specific time windows throughout the calendar year.</p>
+        <p>During these windows, participants submit structured research related to prepaid international call plans and SIM or eSIM offerings.</p>
+
+        <div class="sub-heading">For this Alpha, MapQuest is included to:</div>
+        <ul class="content-list">
+          <li>Introduce you to the MapQuest workflow</li>
+          <li>Familiarise you with the submission and review process</li>
+          <li>Prepare you for future production MapQuest windows</li>
+        </ul>
+        <div class="info-box">
+          MapQuest will be the first module you interact with. Detailed guidance is provided directly within the interface.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 7. Scout Role -->
+  <div class="section-card reveal" data-section="7">
+    <div class="section-header" onclick="toggleSection(this)">
+      <span class="section-number">07</span>
+      <span class="section-title">How the Scout Role Works</span>
+      <svg class="section-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <div class="section-body">
+      <div class="section-content">
+        <p>As a <strong style="color:var(--text)">Scout</strong>, your role is to perform live validation tasks using approved prepaid international calling plans and SIMs or eSIMs available in the market and procured by the Scout in their region.</p>
+
+        <div class="sub-heading">As part of this role</div>
+        <ul class="content-list">
+          <li>You will be required to purchase an approved prepaid call plan and/or SIM or eSIM as instructed</li>
+          <li>You will submit proof of purchase through the platform</li>
+          <li>Approved purchases will be reimbursed in UPs following successful submission and administrative review</li>
+        </ul>
+
+        <div class="sub-heading">During the Scout phase, you will be guided through:</div>
+        <ul class="content-list">
+          <li>Registering required information</li>
+          <li>Completing assigned validation tasks</li>
+          <li>Submitting results through reports in the platform</li>
+        </ul>
+        <div class="info-box">
+          The Scout role focuses on accuracy and adherence to instructions. All task-specific steps are provided directly within the Scout interface.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 8. Runner Role -->
+  <div class="section-card reveal" data-section="8">
+    <div class="section-header" onclick="toggleSection(this)">
+      <span class="section-number">08</span>
+      <span class="section-title">How the Runner Role Works</span>
+      <svg class="section-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <div class="section-body">
+      <div class="section-content">
+        <p>As a <strong style="color:var(--text)">Runner</strong>, your role is to verify approved numbers that have already been validated by Scouts.</p>
+
+        <div class="sub-heading">During this phase:</div>
+        <ul class="content-list">
+          <li>You will be assigned numbers that have passed initial Scout validation</li>
+          <li>You may be required to purchase a prepaid SIM or eSIM as instructed</li>
+          <li>You will perform verification tasks and submit results through the platform</li>
+          <li>You will receive network incentives (UP) for verification tasks performed</li>
+        </ul>
+        <div class="info-box">
+          As with all modules, detailed instructions are delivered in-platform, and tasks must be completed exactly as directed.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 9. How It Progresses -->
+  <div class="section-card reveal" data-section="9">
+    <div class="section-header" onclick="toggleSection(this)">
+      <span class="section-number">09</span>
+      <span class="section-title">How the Alpha Will Progress</span>
+      <svg class="section-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <div class="section-body">
+      <div class="section-content">
+        <p>Participants will move through the Alpha in stages, with instructions shared step by step. Indicative flow, subject to change:</p>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot">D1</div>
+            <div class="timeline-text">
+              <strong>Day 1</strong>
+              <span>Access setup, MapQuest overview, submitting research for admin approval</span>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot">D4</div>
+            <div class="timeline-text">
+              <strong>Day 4</strong>
+              <span>Scout tasks, live validation calls, and reporting</span>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot">D7</div>
+            <div class="timeline-text">
+              <strong>Day 7</strong>
+              <span>Runner tasks, verification calls, and reporting</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="info-box" style="margin-top:8px;">
+          Timeframes may be adjusted based on Cohort progress. Exact timing and task details will be shared before each stage begins.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 10. What's Expected -->
+  <div class="section-card reveal" data-section="10">
+    <div class="section-header" onclick="toggleSection(this)">
+      <span class="section-number">10</span>
+      <span class="section-title">What Is Expected From You</span>
+      <svg class="section-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <div class="section-body">
+      <div class="section-content">
+        <p>Please aim to:</p>
+        <ul class="content-list checked">
+          <li>Actively participate in assigned tasks</li>
+          <li>Follow instructions exactly as provided</li>
+          <li>Submit honest and clear feedback</li>
+          <li>Report issues, suggestions, and customer support requests</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- 11. Reporting Issues -->
+  <div class="section-card reveal" data-section="11">
+    <div class="section-header" onclick="toggleSection(this)">
+      <span class="section-number">11</span>
+      <span class="section-title">Reporting Issues and Support</span>
+      <svg class="section-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <div class="section-body">
+      <div class="section-content">
+        <p>On every User Interface screen, you will see a floating <strong style="color:var(--text)">"Report an Issue"</strong> button. Selecting this opens a form directly within the interface — no redirects, no leaving your task.</p>
+
+        <div class="sub-heading">You can use this form to:</div>
+        <ul class="content-list">
+          <li>Request customer support</li>
+          <li>Report bugs or errors</li>
+          <li>Flag issues or unexpected behaviour</li>
+          <li>Suggest new features or improvements</li>
+        </ul>
+        <div class="info-box">
+          The Scout & Runner team actively monitors all submissions and reviews support requests and bug reports on an ongoing basis.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 12. Communication -->
+  <div class="section-card reveal" data-section="12">
+    <div class="section-header" onclick="toggleSection(this)">
+      <span class="section-number">12</span>
+      <span class="section-title">Communication</span>
+      <svg class="section-chevron" viewBox="0 0 20 20" fill="none"><path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <div class="section-body">
+      <div class="section-content">
+        <p>Updates and instructions may arrive quickly — please monitor your inbox regularly.</p>
+        <p>If your availability changes or you are unable to continue, please let us know as early as possible.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">
+    <svg width="40" height="44" viewBox="0 0 100 110" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:block;margin:0 auto 12px">
+      <path d="M10 10 L10 62 Q10 100 50 100 Q90 100 90 62 L90 10" stroke="white" stroke-width="10" stroke-linecap="round" fill="none"/>
+      <path d="M27 10 L27 62 Q27 83 50 83 Q73 83 73 62 L73 10" stroke="white" stroke-width="10" stroke-linecap="round" fill="none"/>
+      <path d="M44 10 L44 62 Q44 66 50 66 Q56 66 56 62 L56 10" stroke="white" stroke-width="10" stroke-linecap="round" fill="none"/>
+    </svg>
+    UNITY
+  </div>
+  <p>Your time and feedback at this stage matter, and we are happy to have you as participants.</p>
+  <p style="margin-top:8px; font-size:11px; letter-spacing:0.05em; text-transform:uppercase; color:var(--text-dim);">Scout & Runner Team · Alpha Onboarding Package</p>
+</footer>
+
+<script>
+  // ── TOGGLE SECTION ──
+  function toggleSection(header) {
+    const card = header.closest('.section-card');
+    const isOpen = card.classList.contains('open');
+    card.classList.toggle('open', !isOpen);
+    updateDots();
+  }
+
+  function expandAll() {
+    document.querySelectorAll('.section-card').forEach(c => c.classList.add('open'));
+    updateDots();
+  }
+
+  function collapseAll() {
+    document.querySelectorAll('.section-card').forEach(c => c.classList.remove('open'));
+    updateDots();
+  }
+
+  // ── NAV DOTS ──
+  const totalSections = 12;
+  const dotsContainer = document.getElementById('navDots');
+
+  for (let i = 1; i <= totalSections; i++) {
+    const dot = document.createElement('div');
+    dot.className = 'nav-dot';
+    dot.dataset.section = i;
+    dot.title = `Section ${i}`;
+    dot.addEventListener('click', () => {
+      const card = document.querySelector(`[data-section="${i}"]`);
+      if (card) { card.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
+    });
+    dotsContainer.appendChild(dot);
+  }
+
+  function updateDots() {
+    document.querySelectorAll('.nav-dot').forEach(dot => {
+      const s = dot.dataset.section;
+      const card = document.querySelector(`[data-section="${s}"]`);
+      dot.classList.toggle('active', card?.classList.contains('open'));
+    });
+  }
+
+  // ── PROGRESS BAR ──
+  window.addEventListener('scroll', () => {
+    const scrollTop = window.scrollY;
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+    document.getElementById('progressBar').style.width = pct + '%';
+  });
+
+  // ── REVEAL ON SCROLL ──
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        setTimeout(() => e.target.classList.add('visible'), i * 60);
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>

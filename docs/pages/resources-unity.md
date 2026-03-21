@@ -49,7 +49,6 @@ permalink: /resources/unity
     - Token Name: WMTX
     - Explorer URL: https://explorer.worldmobile.io
 - [App Issue/Bug Reporting](https://unitynodes.io/bug-report/)
-- [Scout & Runner Alpha Onboarding](/resources/unity/scout_runner_alpha_onboarding)
 
 ## selfdriven Network Infra
 - [Example Cooperative Infra Agreement](https://www.selfdriven.network/infra-interface/cooperative/agreement)
